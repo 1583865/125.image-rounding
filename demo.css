@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.box {
+	width: 540px;
+	height: 540px;
+	margin: 50px auto;
+}
+.box ul {
+	list-style: none;
+}
+.box ul li {
+	width: 180px;
+	height: 180px;
+	float: left;
+}
+ img {
+	width: 140px;
+	height: 140px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.6);
+	/*盒子阴影   位置  阴影大小  颜色*/
+	transition: 2s;
+}
+img:hover{
+	transform: scale(1.5);
+	border-radius: 50%;
+	box-shadow: 2px 2px 10px rgba(255,0,0,.3);
+}
